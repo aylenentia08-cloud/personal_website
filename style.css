@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f2f7; /* Light blue background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header & Footer */
+header, footer {
+    background-color: #0d47a1; /* Dark blue */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+/* Navigation */
+nav {
+    background-color: #1565c0; /* Medium blue nav */
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    background-color: #1e88e5; /* Lighter blue links */
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #42a5f5; /* Lightest blue on hover */
+}
+
+/* Profile Section */
+.profile-photo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1565c0;
+}
+
+/* Content Sections */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #1565c0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #1565c0;
+}
+
+/* Contact Links */
+#contact a {
+    color: #1e88e5;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
